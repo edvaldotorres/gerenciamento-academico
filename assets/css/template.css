@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.leftmenu {
+    width: 200px;
+    background-color: #1f232a;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.company_name {
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+}
+
+.container {
+    padding-left: 200px;
+}
+
+.top {
+    height: 40px;
+    background-color: #232830;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.top_right {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top_right a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menuarea {
+    color: #FFF;
+}
+
+.menuarea ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuarea li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.menuarea li:hover {
+    background-color: #000;
+}
+
+.menuarea li a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+
+.menuarea a > span {
+    padding-left: 10px;
+}
+
+.area {
+    padding: 15px;
+}
+
+.tabarea {
+    height: 40px;
+}
+
+.tabitem {
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.activetab {
+    border-bottom: 1px solid #FFF;
+    background-color: #FFF;
+}
+
+.tabbody {
+    display: none;
+    padding-top: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+select,
+textarea {
+    width: 98%;
+    height: 30px;
+    font-size: 13px;
+    outline: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 100px;
+    border: 1px solid #CCC;
+}
+
+input[type=submit],
+button,
+.button {
+    border: 0px;
+    background-color: #224074;
+    color: #FFF;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.button_small {
+    height: 30px;
+    line-height: 30px;
+}
+
+.button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+table {
+    margin-top: 10px;
+}
+
+table th {
+    height: 40px;
+    line-height: 40px;
+    background-color: #DDD;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table td {
+    height: 40px;
+    line-height: 40px;
+    background-color: #EEE;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p_item {
+    height: 25px;
+    line-height: 25px;
+}
+
+.warn {
+    padding: 15px;
+    background-color: #EEE;
+    border: 2px solid #CCC;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pag_item {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border: 1px solid #000;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.pag_item {
+    color: #000;
+    text-decoration: none;
+}
+
+.pag_ativo {
+    background-color: #224074;
+}
+
+.pag_ativo a {
+    color: #FFF;
+}
+
+#busca {
+    width: 100px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 5px;
+    /*padding-left:25px;*/
+    border-radius: 3px;
+    border: 1px solid #CCC;
+}
+
+.searchresults {
+    width: 260px;
+    background-color: #FFF;
+    position: absolute;
+    border: 1px solid #CCC;
+}
+
+.si {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.si a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.si:hover {
+    background-color: #EEE;
+}

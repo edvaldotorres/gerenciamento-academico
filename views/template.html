@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/template.css"/>
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/all.min.css"/>
+    <script src="<?php echo BASE_URL; ?>/assets/javaScript/all.min.js"></script>
+    <script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/javaScript/jquery.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '<?php echo BASE_URL; ?>';
+    </script>
+    <script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/javaScript/script.js"></script>
+    <title>Painel -
+        <?php echo $viewData['company_name']; ?>
+    </title>
+</head>
+<body>
+<div class="leftmenu">
+    <div class="company_name">
+        <?php echo $viewData['company_name']; ?>
+    </div>
+    <div class="menuarea">
+        <ul>
+            <li><a href="<?php echo BASE_URL; ?>/home"><i class="fas fa-home"></i> <span>Dashboard</span></a></li>
+            <li><a href="<?php echo BASE_URL; ?>/permissions"><i class="fas fa-key"></i> <span>Permissões</span></a>
+            <li><a href="<?php echo BASE_URL; ?>/users"><i class="fas fa-users"></i> <span>Usuários</span></a>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="top">
+        <div class="top_right"><a href="<?php echo BASE_URL.'/login/logout'; ?>">Sair</a></div>
+        <div class="top_right">
+            <?php echo $viewData['user_email']; ?>
+        </div>
+    </div>
+    <div class="area">
+        <?php $this->loadViewTemplate($viewName, $viewData); ?>
+    </div>
+</div>
+</body>
+</html>
