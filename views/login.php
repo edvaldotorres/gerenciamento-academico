@@ -21,7 +21,7 @@
 <form class="form-signin" method="POST">
 
     <img class="mb-4" src="https://www.unu.com.br/wp-content/uploads/2017/11/UNU-DIGITA.png"
-         alt="Logo UNU_DIGITAL" width="300"
+         alt="Logo UNU DIGITAL" width="300"
          height="100">
 
     <h1 class="h3 mb-3 font-weight-normal">Gerenciamento Acadêmico</h1>
