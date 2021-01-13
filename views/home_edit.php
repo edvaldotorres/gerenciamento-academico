@@ -5,7 +5,7 @@
 <?php endif; ?>
 
 <form method="POST">
-    <label for="name">Titulo da Tarefa</label><br/>
+    <label for="name">Nome do Aluno</label><br/>
     <input type="text" name="name" value="<?php echo $pupils_info[0]['name']; ?>"
            required/>
     
